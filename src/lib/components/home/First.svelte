@@ -1,10 +1,27 @@
-<script>
+<script lang="ts">
+	let count = 0;
+	function sleep(ms: Number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+	}
+	async function increase() {
+		await sleep(1);
+		while (count < 45000) {
+			count = count + 1234;
+			await sleep (10 + count/45000 * 10);
+		}
+		while (count < 50000) {
+			count = count + 123;
+			await sleep (20);
+		}
+		count = 50000;
+	}
+	increase();
 </script>
 
 <div class="flex justify-center">
 	<div class="max-w-6xl flex flex-col items-center py-12">
 		<p class="font-medium pb-4 text-xl text-center px-2">As a first step, we're giving out</p>
-		<p class="text-6xl font-black text-primary justify-center px-2">50,000</p>
+		<p class="text-6xl font-black text-primary justify-center px-2">{count.toLocaleString()}</p>
 		<p class="font-medium py-4 text-xl text-center px-2">
 			every once in a while to one special talent from our town
 		</p>
