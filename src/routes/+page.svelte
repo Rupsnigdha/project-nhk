@@ -8,8 +8,8 @@
 </script>
 
 <svelte:head>
-<title>Home</title>
-<meta name="description" content="Svelte demo app" />
+<title>Project Naharkatia Scholarship</title>
+<meta name="description" content="Project Naharkatia Scholarship" />
 </svelte:head>
 
 <section>
