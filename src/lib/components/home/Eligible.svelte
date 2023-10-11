@@ -12,49 +12,50 @@
 		{ id: 7, name: 'musicians 🎤' }
 	];
 	let eligibleContainer, eligibleLine;
-	let eligibleTl = gsap.timeline();
+	let eligibleTl1 = gsap.timeline();
+	let eligibleTl2 = gsap.timeline()
 	onMount(() => {
 		let eligibleTypesAnimation = document.querySelectorAll('.eligible-types');
 		const observer = new IntersectionObserver((entries) => {
 			entries.forEach(
 				(entry) => {
 					if (entry.isIntersecting) {
-						eligibleTl.fromTo(
+						eligibleTl1.fromTo(
 							eligibleLine,
 							{ x: '-600px', opacity: 0 },
 							{ x: 0, opacity: 1, duration: 1 }
 						);
-						eligibleTl.fromTo(
+						eligibleTl2.fromTo(
 							eligibleTypesAnimation[0],
 							{ y: -10, opacity: 0 },
 							{ y: 0, opacity: 1, duration: 0.5 }
 						);
-						eligibleTl.fromTo(
+						eligibleTl2.fromTo(
 							eligibleTypesAnimation[1],
 							{ y: -10, opacity: 0 },
 							{ y: 0, opacity: 1, duration: 0.5 }
 						);
-						eligibleTl.fromTo(
+						eligibleTl2.fromTo(
 							eligibleTypesAnimation[2],
 							{ y: -10, opacity: 0 },
 							{ y: 0, opacity: 1, duration: 0.5 }
 						);
-						eligibleTl.fromTo(
+						eligibleTl2.fromTo(
 							eligibleTypesAnimation[3],
 							{ y: -10, opacity: 0 },
 							{ y: 0, opacity: 1, duration: 0.5 }
 						);
-						eligibleTl.fromTo(
+						eligibleTl2.fromTo(
 							eligibleTypesAnimation[4],
 							{ y: -10, opacity: 0 },
 							{ y: 0, opacity: 1, duration: 0.5 }
 						);
-						eligibleTl.fromTo(
+						eligibleTl2.fromTo(
 							eligibleTypesAnimation[5],
 							{ y: -10, opacity: 0 },
 							{ y: 0, opacity: 1, duration: 0.5 }
 						);
-						eligibleTl.fromTo(
+						eligibleTl2.fromTo(
 							eligibleTypesAnimation[6],
 							{ y: -10, opacity: 0 },
 							{ y: 0, opacity: 1, duration: 0.5 }
