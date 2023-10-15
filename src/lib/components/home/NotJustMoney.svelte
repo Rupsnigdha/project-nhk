@@ -18,7 +18,7 @@
 		</p>
 		<div>
 			<button
-				class="btn bg-accent mt-4 text-white font-bold sbtn-xs sm:btn-sm md:btn-md hover:bg-white hover:text-secondary hover:border-secondary"
+				class="btn bg-accent mt-4 text-white font-bold sbtn-xs sm:btn-sm md:btn-md hover:bg-white hover:text-secondary hover:border-secondary" onclick="window.location.href='/posts/the-nhk-scholarship-our-process'"
 				>Know our process</button
 			>
 		</div>
