@@ -8,7 +8,7 @@
 	</div>
 	<h2 class="text-2xl mt-4">Want to <span class="font-bold">help our cause?</span></h2>
 	<button
-		class="btn text-white font-bold sbtn-xs border-none bg-secondary mt-4 sm:btn-sm md:btn-md hover:bg-white hover:text-secondary hover:border-secondary" onclick="window.location.href='/posts/donate-to-project-naharkatia"
+		class="btn text-white font-bold sbtn-xs border-none bg-secondary mt-4 sm:btn-sm md:btn-md hover:bg-white hover:text-secondary hover:border-secondary" onclick="window.location.href='/posts/donate-to-project-naharkatia'"
 		>become a donor!</button
 	>
 </div>
