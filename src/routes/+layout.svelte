@@ -3,10 +3,10 @@
 	import Footer from '$lib/components/Footer.svelte';
 
 	const navbarItems = [
-		{ id: 1, title: 'Top 7 Tips before you apply', link: 'https://www.google.com/' },
-		{ id: 2, title: 'How is the winner selected?', link: 'https://www.google.com/' },
-		{ id: 1, title: 'Apply for the scholarship!', link: 'https://www.google.com/' },
-		{ id: 1, title: 'Read all our articles!', link: '/posts' }
+		{ id: 1, title: 'Top 7 Tips before you apply', link: '/posts/top-7-tips-before-you-apply' },
+		{ id: 2, title: 'Check out the winners here', link: '/winners' },
+		{ id: 3, title: 'Apply for the scholarship!', link: 'https://docs.google.com/forms/d/e/1FAIpQLSfGTHPHingmah2W9JHOSyqIi5WKOw7mf5ixW7Aa7HrmYmUdTA/closedform' },
+		{ id: 4, title: 'Read all our articles!', link: '/posts' }
 	];
 </script>
 
@@ -18,19 +18,8 @@
 			<div class="flex justify-center bg-primary">
 				<div class="max-w-6xl navbar">
 					<div class="flex-none">
-						<label for="my-drawer-3" class="btn btn-square btn-ghost">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								class="inline-block w-6 h-6 stroke-current"
-								><path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M4 6h16M4 12h16M4 18h16"
-								/></svg
-							>
+						<label for="my-drawer-3" class="btn btn-square btn-ghost lg:hidden">
+							<svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512" class="fill-white"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
 						</label>
 					</div>
 					<div class="flex-1 px-2 mx-2 text-4xl font-black text-white"><a href="/">nhk</a></div>
@@ -52,42 +41,15 @@
 			<ul class="menu p-4 w-80 min-h-full bg-white">
 				<div class="flex justify-between items-center h-16">
 					<h2 class="text-secondary text-xl font-bold">Menu</h2>
-					<div class="flex w-1/3 justify-between">
-						<a href="/"
-							><svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								viewBox="0 0 24 24"
-								class="fill-current"
-								><path
-									d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-								/></svg
-							></a
+					<div class="flex w-2/5 justify-between">
+						<a href="https://www.instagram.com/teamnaharkatia" target="_blank"
+							><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><style>svg{fill:#2b2d42}</style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a
 						>
-						<a href="/"
-							><svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								viewBox="0 0 24 24"
-								class="fill-current"
-								><path
-									d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
-								/></svg
-							></a
+						<a href="https://www.facebook.com/teamnaharkatia" target="_blank"
+							><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#2b2d42}</style><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a
 						>
-						<a href="/"
-							><svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								viewBox="0 0 24 24"
-								class="fill-current"
-								><path
-									d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
-								/></svg
-							></a
+						<a href="https://twitter.com/teamnaharkatia"  target="_blank"
+							><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#2b2d42}</style><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a
 						>
 					</div>
 				</div>
@@ -102,7 +64,7 @@
 					>
 				</li>
 				<li class="mt-4">
-					<a href={navbarItems[2].link} class="bg-primary text-white px-4 py-3 font-bold"
+					<a href={navbarItems[2].link} class="bg-primary text-white px-4 py-3 font-bold"  target="_blank"
 						>{navbarItems[2].title}</a
 					>
 				</li>

@@ -51,21 +51,3 @@ body {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 }
-
-@keyframes heroTexts {
-	from {
-		opacity: 0;
-		transform: translateY(200px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-.hero-text {
-	animation-name: heroTexts;
-	animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-	animation-duration: 4s;
-	animation-fill-mode: forwards;
-}

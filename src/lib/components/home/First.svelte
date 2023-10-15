@@ -1,5 +1,8 @@
 <script lang="ts">
 	let count = 50000;
+
+	
+
 	function sleep(ms: Number) {
 		return new Promise((resolve) => setTimeout(resolve, ms));
 	}

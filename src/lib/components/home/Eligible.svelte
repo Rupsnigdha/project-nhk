@@ -11,9 +11,11 @@
 		{ id: 6, name: 'coders 🧑🏻‍💻' },
 		{ id: 7, name: 'musicians 🎤' }
 	];
-	let eligibleContainer, eligibleLine;
+	let eligibleContainer, eligibleLine, eligibleDesc;
 	let eligibleTl1 = gsap.timeline();
-	let eligibleTl2 = gsap.timeline()
+	let eligibleTl2 = gsap.timeline();
+	let eligibleTl3 = gsap.timeline();
+	
 	onMount(() => {
 		let eligibleTypesAnimation = document.querySelectorAll('.eligible-types');
 		const observer = new IntersectionObserver((entries) => {
@@ -22,7 +24,7 @@
 					if (entry.isIntersecting) {
 						eligibleTl1.fromTo(
 							eligibleLine,
-							{ x: '-600px', opacity: 0 },
+							{ x: '-50px', opacity: 0 },
 							{ x: 0, opacity: 1, duration: 1 }
 						);
 						eligibleTl2.fromTo(
@@ -60,6 +62,10 @@
 							{ y: -10, opacity: 0 },
 							{ y: 0, opacity: 1, duration: 0.5 }
 						);
+						eligibleTl3.fromTo(
+							eligibleDesc,
+							{y: 50, opacity: 0}, {y: 0, opacity: 1, duration: 1}
+						);
 						observer.unobserve(entry.target);
 					}
 				},
@@ -85,7 +91,7 @@
 				>
 			{/each}
 		</div>
-		<div class="text-white px-4 lg:w-[50%]">
+		<div class="text-white px-4 lg:w-[50%]" bind:this={eligibleDesc}>
 			and literally anyone and everyone who wants to thrive in their respective discipline(s),
 			learn, experiment, try new things, fail, and try again.
 		</div>
