@@ -2,6 +2,11 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>Project NHK Scholarship | Posts</title>
+	<meta name="description" content="These are some of the many blogs written by Project Naharkatia in an effort to guide you in your quest to success.">
+</svelte:head>
+
 <div class="flex flex-col items-center">
 	<div class="w-full text-center text-4xl font-bold uppercase py-12">articles</div>
 	<div class="grid md:grid-cols-2 gap-8 px-8 max-w-6xl">
