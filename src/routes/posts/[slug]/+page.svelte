@@ -13,7 +13,7 @@
 		<hgroup>
 			<h1 class="text-4xl lg:text-6xl font-bold mb-4 lg:mb-4">{data.meta.title}</h1>
 			<div class="w-full">
-				<img src={`/images/blogs/${data.slug}.png`} alt="" />
+				<img src={`/images/blogs/${data.slug}.webp`} alt="" />
 			</div>
 			<p class="text-xs font-bold italic my-2">Published on {data.meta.date}</p>
 		</hgroup>
