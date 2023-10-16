@@ -1,8 +1,6 @@
 <script lang="ts">
 	let count = 50000;
 
-	
-
 	function sleep(ms: Number) {
 		return new Promise((resolve) => setTimeout(resolve, ms));
 	}
@@ -12,10 +10,6 @@
 		while (count < 45000) {
 			count = count + 1234;
 			await sleep(10 + (count / 45000) * 10);
-		}
-		while (count < 50000) {
-			count = count + 37;
-			await sleep(20);
 		}
 		count = 50000;
 	}

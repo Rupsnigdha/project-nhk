@@ -13,23 +13,23 @@
 				if (entry.isIntersecting) {
 					heroTl.fromTo(
 						heroFirstLine,
-						{ y: '100px', opacity: 0 },
-						{ y: '0px', opacity: 1, duration: 1 }
+						{ y: '25px', opacity: 0 },
+						{ y: '0px', opacity: 1, duration: 0.5 }
 					);
 					heroTl.fromTo(
 						heroSecondLine,
-						{ y: '100px', opacity: 0 },
-						{ y: '0px', opacity: 1, duration: 1 }
+						{ y: '25px', opacity: 0 },
+						{ y: '0px', opacity: 1, duration: 0.5 }
 					);
 					heroTl.fromTo(
 						heroThirdLine,
-						{ y: '100px', opacity: 0 },
-						{ y: '0px', opacity: 1, duration: 1 }
+						{ y: '25px', opacity: 0 },
+						{ y: '0px', opacity: 1, duration: 0.5 }
 					);
 					heroTl.fromTo(
 						heroFourthLine,
-						{ y: '100px', opacity: 0 },
-						{ y: '0px', opacity: 1, duration: 1 }
+						{ y: '25px', opacity: 0 },
+						{ y: '0px', opacity: 1, duration: 0.5 }
 					);
 					observer.unobserve(entry.target);
 				}

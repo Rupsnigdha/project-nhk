@@ -9,13 +9,21 @@
 
 <svelte:head>
 	<title>Project Naharkatia Scholarship</title>
-	<meta name="description" content="The NHK Scholarship by Project Naharkatia awards one special talent from the town with Rs. 50,000 and other valuable resources." />
+	<meta
+		name="description"
+		content="The NHK Scholarship by Project Naharkatia awards one special talent from the town with Rs. 50,000 and other valuable resources."
+	/>
 </svelte:head>
 
 <section>
 	<div class="flex justify-center bg-secondary px-4">
 		<div class="container flex justify-center text-sm text-white py-4 px-auto">
-			First season winner announced! Find out - Click Here!
+			First season winner announced! Find out - <a
+				href="/winners"
+				class="font-bold text-primary pl-1"
+			>
+				Click Here!</a
+			>
 		</div>
 	</div>
 	<Hero />

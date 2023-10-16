@@ -15,7 +15,7 @@
 	let eligibleTl1 = gsap.timeline();
 	let eligibleTl2 = gsap.timeline();
 	let eligibleTl3 = gsap.timeline();
-	
+
 	onMount(() => {
 		let eligibleTypesAnimation = document.querySelectorAll('.eligible-types');
 		const observer = new IntersectionObserver((entries) => {
@@ -64,7 +64,8 @@
 						);
 						eligibleTl3.fromTo(
 							eligibleDesc,
-							{y: 50, opacity: 0}, {y: 0, opacity: 1, duration: 1}
+							{ y: 50, opacity: 0 },
+							{ y: 0, opacity: 1, duration: 1 }
 						);
 						observer.unobserve(entry.target);
 					}
@@ -96,8 +97,9 @@
 			learn, experiment, try new things, fail, and try again.
 		</div>
 		<button
-			class="btn text-white font-bold sbtn-xs border-none bg-secondary mt-4 sm:btn-sm md:btn-md hover:bg-white hover:text-secondary hover:border-secondary mx-4"
-			>Learn More</button
+			class="btn text-white font-bold sbtn-xs border-none bg-secondary mt-4 sm:btn-sm md:btn-md hover:bg-white hover:text-secondary hover:border-secondary
+			mx-4"
+			onclick="window.location.href='/posts/about-project-naharkatia'">Learn More</button
 		>
 	</div>
 </div>

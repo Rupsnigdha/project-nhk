@@ -4,7 +4,10 @@
 
 <svelte:head>
 	<title>Project NHK Scholarship | Posts</title>
-	<meta name="description" content="These are some of the many blogs written by Project Naharkatia in an effort to guide you in your quest to success.">
+	<meta
+		name="description"
+		content="These are some of the many blogs written by Project Naharkatia in an effort to guide you in your quest to success."
+	/>
 </svelte:head>
 
 <div class="flex flex-col items-center">
