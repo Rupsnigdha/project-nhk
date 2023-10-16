@@ -1,10 +1,7 @@
 ---
 title: The NHK Scholarship - For parents
-description: desc 4
-date: '2002'
-categories:
-  - sveltekit
-  - svelte
+description: Because Project NHK isn't just limited to students!
+date: '16/07/2023'
 published: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Donate to Project Naharkatia
 description: Here is how you can donate to Project Naharkatia!
-date: '04/05/2023'
+date: '13/08/2023'
 published: true
 ---
 

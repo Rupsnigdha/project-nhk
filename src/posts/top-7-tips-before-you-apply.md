@@ -1,8 +1,7 @@
 ---
 title: Top 7 Tips before you apply
 description: Here is all you need to know before you apply for the NHK Scholarship!
-author: 'Pingal Pratyush Singh'
-date: '01/02/2023'
+date: '19/07/2023'
 published: true
 ---
 

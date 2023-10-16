@@ -1,10 +1,7 @@
 ---
 title: How is the winner selected?
 description: Curious to know how we select the winner? Read on!
-date: '2023'
-categories:
-  - sveltekit
-  - svelte
+date: '14/07/2023'
 published: true
 ---
 

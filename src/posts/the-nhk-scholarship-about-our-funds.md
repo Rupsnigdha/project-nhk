@@ -1,10 +1,7 @@
 ---
 title: The NHK Scholarship - about our funds
-description: Have you ever wondered how we manage our funds? Read on!
-date: '2023'
-categories:
-  - sveltekit
-  - svelte
+description: Ever wondered how we manage our funds? Read on!
+date: '15/07/2023'
 published: true
 ---
 

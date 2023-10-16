@@ -1,10 +1,7 @@
 ---
 title: The NHK Scholarship - Who is it for?
-description: desc 2
-date: '2002'
-categories:
-  - sveltekit
-  - svelte
+description: Wondering whether or not the Project NHK Scholarship is for you? Keep reading!
+date: '18/07/2023'
 published: true
 ---
 

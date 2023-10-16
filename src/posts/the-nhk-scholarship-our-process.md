@@ -1,10 +1,7 @@
 ---
 title: The NHK Scholarship - Our process
-description: desc 2
-date: '2002'
-categories:
-  - sveltekit
-  - svelte
+description: Wondering how Project NHK helps you? Read on!
+date: '17/07/2023'
 published: true
 ---
 
