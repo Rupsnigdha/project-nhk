@@ -46,11 +46,13 @@
 				src={HeroMobile}
 				alt=""
 				class="absolute -z-10 object-fill h-full right-0 rounded-b-[64px] sm:hidden"
+				width="400"
 			/>
 			<img
 				src={HeroDesktop}
 				alt=""
 				class="absolute -z-10 object-fill h-full right-0 rounded-b-[64px] max-sm:hidden"
+				width="400"
 			/>
 		</div>
 		<div

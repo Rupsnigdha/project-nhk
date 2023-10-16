@@ -10,7 +10,7 @@
 		<div
 			class="absolute top-[-75px] w-[150px] h-0 md:w-[20%] md:top-[-80px] lg:w-[25%] lg:top-[-100px] bg-blue-400"
 		>
-			<img src={moneyImg} alt="" class="w-full" />
+			<img src={moneyImg} alt="" class="w-full" width="400" />
 		</div>
 		<div class="text-center text-3xl font-bold text-secondary mb-4">Not just money!</div>
 		<p>

@@ -9,7 +9,7 @@
 		<h2 class="text-xl lg:text-2xl font-bold">FAQs - Frequently Asked Questions</h2>
 		<FaqComponent />
 		<div class="w-40 mb-8">
-			<img src={Faqs} alt="" class="w-full" />
+			<img src={Faqs} alt="" class="w-full" width="160"/>
 		</div>
 		<Scholarship />
 	</div>
