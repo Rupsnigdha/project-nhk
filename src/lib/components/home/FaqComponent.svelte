@@ -1,5 +1,13 @@
 <script>
+	import { AccordionItem, Accordion } from 'flowbite-svelte';
+
 	const faqData = [
+		{
+			id: 0,
+			question: 'Where is the money coming from?',
+			answer:
+				'We have been saving! Every month, we will also approach several businessmen and people of interest within Naharkatia to see if they’d like to contribute to the cause. Complete details regarding our funds, how we collect them, and how they are distributed can be found here.'
+		},
 		{
 			id: 1,
 			question: 'Why only Naharkatia?',
@@ -44,25 +52,33 @@
 	];
 </script>
 
-<div class="collapse collapse-plus">
-	<input type="radio" name="my-accordion-3" />
-	<div class="collapse-title font-semibold lg:text-lg px-4">Where is the money coming from?</div>
-	<div class="collapse-content px-4">
-		<p class="text-sm lg:text-base">
-			We’ve been saving. Every month, we’ll also approach several businessmen and people of interest
-			within Naharkatia to see if they’d like to contribute to the cause. Complete details regarding
-			our funds, how we collect them, and how they are distributed can be found here.
-		</p>
-	</div>
-</div>
-{#each faqData as faq}
-	<div class="collapse collapse-plus">
-		<input type="radio" name="my-accordion-3" />
-		<div class="collapse-title font-medium px-4">
-			{faq.question}
-		</div>
-		<div class="collapse-content px-4">
-			<p class="text-sm">{faq.answer}</p>
-		</div>
-	</div>
-{/each}
+<Accordion flush class="w-full px-4 md:px-0">
+	{#each faqData as faq}
+		<AccordionItem transitionParams={{ duration: 500 }}>
+			<span slot="header" class="font-medium text-white w-full">{faq.question}</span>
+			<div slot="arrowup">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					height="1.25em"
+					viewBox="0 0 448 512"
+					class="fill-white"
+					><path
+						d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"
+					/></svg
+				>
+			</div>
+			<span slot="arrowdown">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					height="1.25em"
+					viewBox="0 0 448 512"
+					class="fill-white"
+					><path
+						d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+					/></svg
+				>
+			</span>
+			<p class="mb-2 text-white font-light w-full">{faq.answer}</p>
+		</AccordionItem>
+	{/each}
+</Accordion>
