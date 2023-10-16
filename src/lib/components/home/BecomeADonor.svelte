@@ -4,7 +4,7 @@
 
 <div class="bg-primary text-white py-12 flex flex-col items-center">
 	<div class="h-[1px] relative w-[260px] bg-white">
-		<img src={Help} alt="" class="w-full absolute top-[-174px]" width="320"/>
+		<img src={Help} alt="help" class="w-full absolute top-[-174px]" width="320"/>
 	</div>
 	<h2 class="text-2xl mt-4">Want to <span class="font-bold">help our cause?</span></h2>
 	<button
