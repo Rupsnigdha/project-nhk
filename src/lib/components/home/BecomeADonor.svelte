@@ -1,5 +1,5 @@
 <script>
-	import Help from '$lib/images/help.png';
+	import Help from '$lib/images/help.png?w=320&format=avif';
 </script>
 
 <div class="bg-primary text-white py-12 flex flex-col items-center">

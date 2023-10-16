@@ -1,5 +1,5 @@
 <script>
-	import moneyImg from '$lib/images/money.png';
+	import moneyImg from '$lib/images/money.png?w=400&format=avif';
 </script>
 
 <div class="relative flex h-[262px] sm:h-[200px] md:h-[217px] lg:h-[140px] justify-center">

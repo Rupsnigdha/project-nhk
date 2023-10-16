@@ -2,8 +2,8 @@
 	import { gsap } from 'gsap';
 	import { onMount } from 'svelte';
 
-	import HeroDesktop from '$lib/images/hero-desktop.png';
-	import HeroMobile from '$lib/images/hero-mobile.webp';
+	import HeroDesktop from '$lib/images/hero-desktop.png?w=400&format=avif';
+	import HeroMobile from '$lib/images/hero-mobile.webp?w=400&format=avif';
 
 	let heroFirstLine, heroSecondLine, heroThirdLine, heroFourthLine, heroContainer;
 	let heroTl = gsap.timeline();

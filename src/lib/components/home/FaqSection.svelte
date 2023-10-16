@@ -1,6 +1,6 @@
 <script>
 	import FaqComponent from './FaqComponent.svelte';
-	import Faqs from '$lib/images/faqs.png';
+	import Faqs from '$lib/images/faqs.png?w=160&format=avif';
 	import Scholarship from './Scholarship.svelte';
 </script>
 

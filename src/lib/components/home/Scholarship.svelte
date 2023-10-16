@@ -1,5 +1,5 @@
 <script>
-	import Trophy from '$lib/images/trophy.png';
+	import Trophy from '$lib/images/trophy.png?w=320&format=avif';
 </script>
 
 <div
