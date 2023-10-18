@@ -6,7 +6,7 @@
 </script>
 
 <div class="bg-secondary text-white px-6 overflow-hidden flex items-center justify-center">
-	<div class="max-w-6xl flex flex-col items-center py-12 justify-center">
+	<div class="max-w-3xl flex flex-col items-center py-12 justify-center">
 		<div class="bg-white my-6 rounded-3xl text-secondary p-8 flex flex-col justify-center">
 			<img src={winners} alt="" />
 			<img src={trophy} alt="" />
@@ -28,7 +28,7 @@
 			to life.
 		</p>
 
-		<div class="font-bold">Season 1</div>
+		<div class="font-bold text-left self-start">Season 1</div>
 		<div class="my-6">
 			<div>
 				<img src={priyangshu} alt="" class="w-full" />
