@@ -25,8 +25,8 @@
 		<div class="drawer-content flex flex-col">
 			<!-- Navbar -->
 			<div class="flex justify-center bg-primary sticky top-0 z-20">
-				<div class="max-w-6xl navbar">
-					<div class="flex-none">
+				<div class="max-w-6xl navbar relative">
+					<div class="flex-none absolute">
 						<label for="my-drawer-3" class="btn btn-square btn-ghost lg:hidden">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@
 							>
 						</label>
 					</div>
-					<h1 class="flex-1 px-2 mx-2 text-4xl font-black text-white"><a href="/">nhk</a></h1>
+					<h1 class="flex-1 px-2 mx-2 text-4xl font-black text-white"><a href="/" class="w-full text-center">nhk</a></h1>
 					<div class="flex-none hidden lg:block">
 						<ul class="menu menu-horizontal text-white">
 							{#each navbarItems as navbarItem}

@@ -17,7 +17,7 @@
 
 <section>
 	<div class="flex justify-center bg-secondary px-4">
-		<div class="container flex justify-center text-sm text-white py-4 px-auto">
+		<div class="container text-center text-sm text-white py-4 px-auto">
 			First season winner announced! Find out - <a
 				href="/winners"
 				class="font-bold text-primary pl-1"
