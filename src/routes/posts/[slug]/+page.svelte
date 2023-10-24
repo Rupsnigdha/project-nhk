@@ -11,7 +11,7 @@
 <div class="flex justify-center">
 	<article class="max-w-6xl px-4 my-4 lg:my-8">
 		<hgroup>
-			<h1 class="text-4xl lg:text-6xl font-bold mb-4 lg:mb-4">{data.meta.title}</h1>
+			<h1 class="text-2xl lg:text-4xl font-bold mb-4 lg:mb-4">{data.meta.title}</h1>
 			<div class="w-full">
 				<img src={`/images/blogs/${data.slug}.webp`} alt="" />
 			</div>
