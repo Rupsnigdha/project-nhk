@@ -24,7 +24,7 @@
 		<input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
 		<div class="drawer-content flex flex-col">
 			<!-- Navbar -->
-			<div class="flex justify-center bg-primary">
+			<div class="flex justify-center bg-primary sticky top-0 z-20">
 				<div class="max-w-6xl navbar">
 					<div class="flex-none">
 						<label for="my-drawer-3" class="btn btn-square btn-ghost lg:hidden">
@@ -53,7 +53,7 @@
 			<Footer />
 		</div>
 		<!-- Sidebar -->
-		<div class="drawer-side">
+		<div class="drawer-side z-40">
 			<label for="my-drawer-3" class="drawer-overlay" />
 			<ul class="menu p-4 w-80 min-h-full bg-white">
 				<div class="flex justify-between items-center h-16">
