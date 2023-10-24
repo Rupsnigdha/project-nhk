@@ -5,6 +5,9 @@ export default {
 		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
 	],
 	theme: {
+		fontFamily: {
+			avenir: ['Avenir', 'sans-serif']
+		},
 		extend: {}
 	},
 	plugins: [require('daisyui'), require('flowbite/plugin')],

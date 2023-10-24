@@ -15,7 +15,7 @@
 	/>
 </svelte:head>
 
-<section>
+<section class="">
 	<div class="flex justify-center bg-secondary px-4">
 		<div class="container text-center text-sm text-white py-4 px-auto">
 			First season winner announced! Find out - <a

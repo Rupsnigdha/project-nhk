@@ -55,7 +55,7 @@
 <Accordion flush class="w-full px-4 md:px-0">
 	{#each faqData as faq}
 		<AccordionItem transitionParams={{ duration: 500 }}>
-			<span slot="header" class="font-medium text-base text-white w-full tracking-wide">{faq.question}</span>
+			<span slot="header" class="font-medium text-lg text-white w-full tracking-wide">{faq.question}</span>
 			<div slot="arrowup">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@
 					/></svg
 				>
 			</span>
-			<p class="mb-2 text-white w-full tracking-wide">{faq.answer}</p>
+			<p class="mb-2 text-white w-full font-base tracking-wide leading-6">{faq.answer}</p>
 		</AccordionItem>
 	{/each}
 </Accordion>
