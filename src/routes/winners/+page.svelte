@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Winners</title>
+	<title>Project Naharkatia | Winners</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Winners" />
 	<meta name="description" content="These are the winners of the Project Naharkatia Scholarship" />
@@ -82,7 +82,7 @@
 				speciality.
 			</p>
 			<div class="inline-block bg-primary-focus pb-2 rounded-lg mt-6">
-				<div class="bg-primary px-6 py-3 rounded-lg font-medium"><a href="mailto:projectnaharkatia@gmail.com?subject=Nipu"></a>Contact</div>
+				<div class="bg-primary px-6 py-3 rounded-lg font-medium"><a href="mailto:projectnaharkatia@gmail.com?subject=Nipu">Contact</a></div>
 			</div>
 		</div>
 	</div>

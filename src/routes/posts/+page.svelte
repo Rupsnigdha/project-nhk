@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Project NHK Scholarship | Posts</title>
+	<title>Project Naharkatia | Posts</title>
 	<meta
 		name="description"
 		content="These are some of the many blogs written by Project Naharkatia in an effort to guide you in your quest to success."
