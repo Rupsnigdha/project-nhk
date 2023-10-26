@@ -6,6 +6,8 @@
 	<title>{data.meta.title}</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
+	<meta name="description" content={data.meta.description} />
+	<meta property="og:img" content={`/images/blogs/${data.slug}.webp`}/>
 </svelte:head>
 
 <div class="flex justify-center">
@@ -13,7 +15,7 @@
 		<hgroup>
 			<h1 class="text-2xl lg:text-4xl font-bold mb-4 lg:mb-4">{data.meta.title}</h1>
 			<div class="w-full">
-				<img src={`/images/blogs/${data.slug}.webp`} alt="" />
+				<img src={`/images/blogs/${data.slug}.webp`} alt="" height="1080" width="1920" />
 			</div>
 			<p class="text-xs font-bold italic my-2">Published on {data.meta.date}</p>
 		</hgroup>

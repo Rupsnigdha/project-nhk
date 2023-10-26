@@ -83,7 +83,7 @@
 				<li class="mt-4">
 					<a
 						href={navbarItems[3].link}
-						class="px-4 py-3 bg-accent text-white border-solid border-2 border-accent font-bold hover:bg-white hover:text-secondary hover:border-secondary text-center py-auto leading-4 uppercase">{navbarItems[3].title}</a
+						class="px-4 py-3 bg-accent text-white border-solid border-2 border-accent font-bold hover:bg-white hover:text-secondary hover:border-secondary text-center py-auto leading-4">{navbarItems[3].title}</a
 					>
 				</li>
 				<li class="mt-4" on:click={uncheck}>

@@ -5,6 +5,13 @@
 	import nipu from '$lib/images/nipu.png';
 </script>
 
+<svelte:head>
+	<title>Winners</title>
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Winners" />
+	<meta name="description" content="These are the winners of the Project Naharkatia Scholarship" />
+</svelte:head>
+
 <div class="bg-secondary text-white px-6 overflow-hidden flex items-center justify-center">
 	<div class="max-w-xl flex flex-col items-center py-12 justify-center">
 		<div class="bg-white my-6 rounded-3xl text-secondary p-8 flex flex-col justify-center">
@@ -75,7 +82,7 @@
 				speciality.
 			</p>
 			<div class="inline-block bg-primary-focus pb-2 rounded-lg mt-6">
-				<div class="bg-primary px-6 py-3 rounded-lg font-medium">Contact</div>
+				<div class="bg-primary px-6 py-3 rounded-lg font-medium"><a href="mailto:projectnaharkatia@gmail.com"></a>Contact</div>
 			</div>
 		</div>
 	</div>

@@ -51,6 +51,6 @@
 	</nav>
 	<aside>
 		<p>Copyright © 2023 </p>
-		<p>All right reserved by Team Naharkatia</p>
+		<p>All rights reserved by Team Naharkatia</p>
 	</aside>
 </footer>

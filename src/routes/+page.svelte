@@ -8,10 +8,10 @@
 </script>
 
 <svelte:head>
-	<title>Project Naharkatia Scholarship</title>
+	<title>Naharkatia's Official Website</title>
 	<meta
 		name="description"
-		content="The NHK Scholarship by Project Naharkatia awards one special talent from the town with Rs. 50,000 and other valuable resources."
+		content="All about Naharkatia!"
 	/>
 </svelte:head>
 

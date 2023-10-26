@@ -1,6 +1,6 @@
 ---
 title: About Project Naharkatia
-description: Here is all you need to know about Project Naharkatia
+description: Here is all you need to know about Project Naharkatia.
 date: '13/07/2023'
 published: true
 ---
