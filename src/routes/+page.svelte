@@ -13,6 +13,9 @@
 		name="description"
 		content="All about Naharkatia!"
 	/>
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Naharkatia's Official Website" />
+	<meta property="og:description" content="All about Naharkatia!"/>
 </svelte:head>
 
 <section class="">

@@ -4,10 +4,11 @@
 
 <svelte:head>
 	<title>{data.meta.title}</title>
+	<meta name="description" content={data.meta.description} />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
-	<meta name="description" content={data.meta.description} />
-	<meta property="og:img" content="https://naharkatia.com/project-nhk.png"/>
+	<meta property="og:description" content={data.meta.description}/>
+	<meta property="og:image" content="https://naharkatia.com/project-nhk.png"/>
 </svelte:head>
 
 <div class="flex justify-center">
