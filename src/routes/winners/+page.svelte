@@ -64,7 +64,7 @@
 				make sure his path of success comes as a designer first, then whatever it may be.
 			</p>
 			<div class="inline-block bg-primary-focus pb-2 rounded-lg mt-6">
-				<div class="bg-primary px-6 py-3 rounded-lg font-medium">Contact</div>
+				<div class="bg-primary px-6 py-3 rounded-lg font-medium"><a href="mailto:priyangshubanerjee2003@gmail.com?subject=NHK%20Scholarship">Contact</a></div>
 			</div>
 		</div>
 		<div class="my-6">
@@ -82,7 +82,7 @@
 				speciality.
 			</p>
 			<div class="inline-block bg-primary-focus pb-2 rounded-lg mt-6">
-				<div class="bg-primary px-6 py-3 rounded-lg font-medium"><a href="mailto:projectnaharkatia@gmail.com"></a>Contact</div>
+				<div class="bg-primary px-6 py-3 rounded-lg font-medium"><a href="mailto:projectnaharkatia@gmail.com?subject=Nipu"></a>Contact</div>
 			</div>
 		</div>
 	</div>
