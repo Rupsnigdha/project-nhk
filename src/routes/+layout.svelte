@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import '../app.css';
+	import Analytics from '$lib/components/Analytics.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
 	const navbarItems = [
@@ -15,19 +16,20 @@
 		{ id: 4, title: 'Read all our articles!', link: '/posts' }
 	];
 	function uncheck() {
-    		document.getElementById("my-drawer-3").checked = false;
+    		document.getElementById("nav-drawer-id").checked = false;
 		}
 </script>
 
 <div class="app">
+	<Analytics />
 	<div class="drawer w-full">
-		<input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+		<input id="nav-drawer-id" type="checkbox" class="drawer-toggle" />
 		<div class="drawer-content flex flex-col">
 			<!-- Navbar -->
 			<div class="flex justify-center bg-primary sticky top-0 z-20">
 				<div class="max-w-6xl navbar relative">
 					<div class="flex-none absolute">
-						<label for="my-drawer-3" class="btn btn-square btn-ghost lg:hidden">
+						<label for="nav-drawer-id" class="btn btn-square btn-ghost lg:hidden">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								height="1.5em"
@@ -54,7 +56,7 @@
 		</div>
 		<!-- Sidebar -->
 		<div class="drawer-side z-40">
-			<label for="my-drawer-3" class="drawer-overlay" />
+			<label for="nav-drawer-id" class="drawer-overlay" />
 			<ul class="menu p-4 w-80 min-h-full bg-white">
 				<div class="flex justify-between items-center h-16">
 					<h2 class="text-secondary text-xl font-bold">Close</h2>
