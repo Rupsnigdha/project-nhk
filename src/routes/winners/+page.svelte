@@ -6,7 +6,7 @@
 </script>
 
 <div class="bg-secondary text-white px-6 overflow-hidden flex items-center justify-center">
-	<div class="max-w-3xl flex flex-col items-center py-12 justify-center">
+	<div class="max-w-xl flex flex-col items-center py-12 justify-center">
 		<div class="bg-white my-6 rounded-3xl text-secondary p-8 flex flex-col justify-center">
 			<img src={winners} alt="" />
 			<img src={trophy} alt="" />
@@ -16,7 +16,7 @@
 			<div class="text-center">a project naharkatia initiative</div>
 		</div>
 		<p class="my-6 w-auto">
-			Every once in a while, we at <span class="font-medium">Project Naharkatia</span>offer a
+			Every once in a while, we at <span class="font-medium">Project Naharkatia </span>offer a
 			<span class="font-medium">Rs. 50,000 scholarship</span>to a deserving young mind from the
 			region for their brilliant work, aspirations, and dram to pursue their passion, chase a
 			non-conventional career path, and strive to

@@ -10,8 +10,8 @@
 		{ id: 2, title: 'Check out the winners here', link: '/winners' },
 		{
 			id: 3,
-			title: 'Apply for the scholarship!',
-			link: 'https://docs.google.com/forms/d/e/1FAIpQLSfGTHPHingmah2W9JHOSyqIi5WKOw7mf5ixW7Aa7HrmYmUdTA/closedform'
+			title: 'Season 2 coming soon!',
+			link: ''
 		},
 		{ id: 4, title: 'Read all our articles!', link: '/posts' }
 	];
@@ -80,11 +80,10 @@
 						>{navbarItems[2].title}</a
 					>
 				</li>
-				<li class="mt-4" on:click={uncheck}>
+				<li class="mt-4">
 					<a
 						href={navbarItems[3].link}
-						class="bg-primary text-white px-4 py-3 font-bold"
-						target="_blank">{navbarItems[3].title}</a
+						class="px-4 py-3 bg-accent text-white border-solid border-2 border-accent font-bold hover:bg-white hover:text-secondary hover:border-secondary text-center py-auto leading-4 uppercase">{navbarItems[3].title}</a
 					>
 				</li>
 				<li class="mt-4" on:click={uncheck}>
