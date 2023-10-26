@@ -8,7 +8,6 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
 	<meta property="og:description" content={data.meta.description}/>
-	<meta property="og:image" content="https://naharkatia.com/project-nhk.png"/>
 </svelte:head>
 
 <div class="flex justify-center">
