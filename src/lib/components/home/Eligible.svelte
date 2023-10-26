@@ -87,7 +87,7 @@
 		<div class="flex flex-wrap px-4 lg:w-[60%]">
 			{#each eligibleTypes as type}
 				<span
-					class="bg-white mr-2 mb-2 px-2 py-1 text-lg font-semibold text-secondary rounded eligible-types"
+					class="bg-white mr-2 mb-2 px-2 py-1 text-lg font-medium text-secondary rounded eligible-types"
 					>{type.name}</span
 				>
 			{/each}

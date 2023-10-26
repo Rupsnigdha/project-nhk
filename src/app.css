@@ -92,3 +92,22 @@ body {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
+.prose :is(ul) {
+	padding-left: 16px;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.prose :is(p) :is(a) {
+	color: #ff4747;
+	font-weight: 600;
+}
+.prose :is(ul) :is(li) {
+	list-style-type: circle;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.faq-ans :is(a) {
+	color: #ff4747;
+	font-weight: 600;
+}

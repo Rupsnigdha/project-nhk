@@ -50,6 +50,7 @@
 		</div>
 	</nav>
 	<aside>
-		<p>Copyright © 2023 - All right reserved by Team Naharkatia</p>
+		<p>Copyright © 2023 </p>
+		<p>All right reserved by Team Naharkatia</p>
 	</aside>
 </footer>

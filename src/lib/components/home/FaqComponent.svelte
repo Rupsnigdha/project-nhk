@@ -6,7 +6,7 @@
 			id: 0,
 			question: 'Where is the money coming from?',
 			answer:
-				'We have been saving! Every month, we will also approach several businessmen and people of interest within Naharkatia to see if they’d like to contribute to the cause. Complete details regarding our funds, how we collect them, and how they are distributed can be found here.'
+				'We have been saving! Every month, we will also approach several businessmen and people of interest within Naharkatia to see if they’d like to contribute to the cause. Complete details regarding our funds, how we collect them, and how they are distributed can be found <a href="posts/the-nhk-scholarship-about-our-funds">here.</a>'
 		},
 		{
 			id: 1,
@@ -30,7 +30,7 @@
 			id: 4,
 			question: 'Can anyone apply?',
 			answer:
-				'The Naharkatia Scholarship is for anyone and everyone who’re doing great things and need help scale their ideas and ambitions. Click here to know if you qualify for the scholarship.'
+				'The Naharkatia Scholarship is for anyone and everyone who’re doing great things and need help scale their ideas and ambitions. <a href="posts/the-nhk-scholarship-who-is-it-for">Click here</a> to know if you qualify for the scholarship.'
 		},
 		{
 			id: 5,
@@ -47,7 +47,7 @@
 			id: 7,
 			question: 'Can I be a Sponsor?',
 			answer:
-				'Absolutely. If you want to sponsor a month’s scholarship or more, feel free to click here. How will the sponsorship work, you ask? We’ll add your name/company’s name as the title sponsor. For eg. “DS Chat House – The Naharkatia Scholarship – September 2022”.'
+				'Absolutely. If you want to sponsor a month’s scholarship or more, feel free to <a href="/posts/donate-to-project-naharkatia">click here</a>. How will the sponsorship work, you ask? We’ll add your name/company’s name as the title sponsor. For eg. “DS Chat House – The Naharkatia Scholarship – September 2022”.'
 		}
 	];
 </script>
@@ -78,7 +78,7 @@
 					/></svg
 				>
 			</span>
-			<p class="mb-2 text-white w-full font-base tracking-wide leading-6">{faq.answer}</p>
+			<p class="mb-2 text-white w-full font-base tracking-wide leading-6 faq-ans">{@html faq.answer}</p>
 		</AccordionItem>
 	{/each}
 </Accordion>

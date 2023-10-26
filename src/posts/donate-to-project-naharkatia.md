@@ -7,13 +7,13 @@ published: true
 
 Thank you so much for considering donating to Project Naharkatia. We’re a non-profit initiative. Every rupee we’ll make through the initiative will be given back to deserving talents from the town.
 
-If you want to sponsor a month’s scholarship as a title sponsor(e.g. DS Chat House – The Naharkatia Scholarship – December 2022), feel free to WhatsApp us at +918297314364.
+If you want to sponsor a month’s scholarship as a title sponsor(e.g. DS Chat House – The Naharkatia Scholarship – December 2022), feel free to WhatsApp us at +918368346162.
 
 If you’d like to donate and help the initiative, here are our details –
 
 ## If you use Google Pay/PhonePe/PayTM or any other UPI app
 
-UPI ID – 9435003951938@paytm
+UPI ID – pingals@fbl
 
 ## If you want to do a bank transfer
 

@@ -25,4 +25,4 @@ Encourage your child to pursue what they truly love. Your child might be an aver
 
 Help them learn the balance between pursuing academics and their interests.
 
-If you’d like to talk to one of our team members about better parenting, send us a WhatsApp message. (Our number: +918297314364)
+If you’d like to talk to one of our team members about better parenting, send us a WhatsApp message. (Our number: +918368346162).
